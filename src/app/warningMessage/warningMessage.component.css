@@ -1,4 +1,4 @@
-.warning{
-    color: red;
-    text-decoration: underline;
+.alert {
+    display: inline-block;
+    box-shadow: 3px 3px 9px -1px #cccccc;
 }
