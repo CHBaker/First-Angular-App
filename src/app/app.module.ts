@@ -4,20 +4,31 @@ import { FormsModule} from '@angular/forms'
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { ServerComponent } from './server/server.component';
-import { ServersComponent } from './servers/servers.component';
 import { WarningMessageComponent} from './warningMessage/warningMessage.component';
-import { SuccesMessageComponent } from './succes-message/succes-message.component';
-import { SuccessMessageComponent } from './success-message/success-message.component'
+import { SuccessMessageComponent } from './success-message/success-message.component';
+import { HeaderComponent } from './header/header.component';
+import { ShoppingComponent } from './shopping/shopping.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { ShoppingListComponent } from './shopping/shopping-list/shopping-list.component';
+import { ShoppingListEditComponent } from './shopping/shopping-list-edit/shopping-list-edit.component';
+import { IngredientComponent } from './shopping/ingredient/ingredient.component';
+import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
+import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
+import { RecipeComponent } from './recipes/recipe/recipe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServerComponent,
-    ServersComponent,
     WarningMessageComponent,
-    SuccesMessageComponent,
-    SuccessMessageComponent
+    SuccessMessageComponent,
+    HeaderComponent,
+    ShoppingComponent,
+    RecipesComponent,
+    ShoppingListComponent,
+    ShoppingListEditComponent,
+    IngredientComponent,
+    RecipeDetailComponent,
+    RecipeComponent
   ],
   imports: [
     BrowserModule,
