@@ -10,11 +10,10 @@ import { HeaderComponent } from './header/header.component';
 import { ShoppingComponent } from './shopping/shopping.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { ShoppingListComponent } from './shopping/shopping-list/shopping-list.component';
-import { ShoppingListEditComponent } from './shopping/shopping-list-edit/shopping-list-edit.component';
-import { IngredientComponent } from './shopping/ingredient/ingredient.component';
 import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
 import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
-import { RecipeComponent } from './recipes/recipe/recipe.component';
+import { RecipeComponent } from './recipes/recipe-list/recipe/recipe.component';
+import { IngredientComponent } from './shopping/shopping-list/ingredient/ingredient.component';
 
 @NgModule({
   declarations: [
@@ -25,10 +24,10 @@ import { RecipeComponent } from './recipes/recipe/recipe.component';
     ShoppingComponent,
     RecipesComponent,
     ShoppingListComponent,
-    ShoppingListEditComponent,
-    IngredientComponent,
     RecipeDetailComponent,
-    RecipeComponent
+    RecipeListComponent,
+    RecipeComponent,
+    IngredientComponent,
   ],
   imports: [
     BrowserModule,
