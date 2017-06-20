@@ -7,14 +7,13 @@ import { AppComponent } from './app.component';
 import { WarningMessageComponent} from './warningMessage/warningMessage.component';
 import { SuccessMessageComponent } from './success-message/success-message.component';
 import { HeaderComponent } from './header/header.component';
-import { ShoppingComponent } from './shopping/shopping.component';
 import { RecipesComponent } from './recipes/recipes.component';
-import { ShoppingListComponent } from './shopping/shopping-list/shopping-list.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
 import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 import { RecipeComponent } from './recipes/recipe-list/recipe/recipe.component';
-import { IngredientComponent } from './shopping/shopping-list/ingredient/ingredient.component';
-import { ShoppingEditComponent} from './shopping/shopping-list/shopping-edit/shopping-edit.component';
+import { IngredientComponent } from './shopping-list/ingredient/ingredient.component';
+import { ShoppingEditComponent} from './shopping-list/shopping-edit/shopping-edit.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +21,6 @@ import { ShoppingEditComponent} from './shopping/shopping-list/shopping-edit/sho
     WarningMessageComponent,
     SuccessMessageComponent,
     HeaderComponent,
-    ShoppingComponent,
     RecipesComponent,
     ShoppingListComponent,
     RecipeDetailComponent,
