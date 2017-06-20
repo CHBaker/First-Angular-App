@@ -13,7 +13,6 @@ import { ShoppingListComponent } from './shopping/shopping-list/shopping-list.co
 import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
 import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 import { RecipeComponent } from './recipes/recipe-list/recipe/recipe.component';
-import { IngredientComponent } from './shopping/shopping-list/ingredient/ingredient.component';
 import { ShoppingEditComponent} from './shopping/shopping-list/shopping-edit/shopping-edit.component';
 
 @NgModule({
@@ -28,7 +27,6 @@ import { ShoppingEditComponent} from './shopping/shopping-list/shopping-edit/sho
     RecipeDetailComponent,
     RecipeListComponent,
     RecipeComponent,
-    IngredientComponent,
     ShoppingEditComponent
   ],
   imports: [
