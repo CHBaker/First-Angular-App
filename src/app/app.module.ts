@@ -11,7 +11,10 @@ import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.com
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
+<<<<<<< HEAD
 import { DropdownDirective } from './shared/dropdown.directive';
+=======
+>>>>>>> 0a2f06585a74e4c437c7e9e2c395eb51953d550f
 
 @NgModule({
   declarations: [
@@ -22,8 +25,12 @@ import { DropdownDirective } from './shared/dropdown.directive';
     RecipeDetailComponent,
     RecipeItemComponent,
     ShoppingListComponent,
+<<<<<<< HEAD
     ShoppingEditComponent,
     DropdownDirective
+=======
+    ShoppingEditComponent
+>>>>>>> 0a2f06585a74e4c437c7e9e2c395eb51953d550f
   ],
   imports: [
     BrowserModule,
